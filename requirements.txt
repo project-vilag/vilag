@@ -1,0 +1,10 @@
+flask
+sentence-transformers
+hdbscan
+numpy
+transformers
+torch
+spacy
+regex
+colorama
+pandas

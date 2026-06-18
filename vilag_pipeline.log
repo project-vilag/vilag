@@ -1,0 +1,55 @@
+2026-06-18 17:03:45,044 [INFO] [OK] spaCy model 'en_core_web_sm' loaded for scrubbing.
+2026-06-18 17:03:45,045 [INFO] No device provided, using cpu
+2026-06-18 17:03:45,047 [INFO] Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-06-18 17:03:46,818 [INFO] [OK] Embedding model 'paraphrase-multilingual-MiniLM-L12-v2' loaded from local cache.
+2026-06-18 17:03:46,820 [INFO] [OK] All pipeline components initialised.
+
+2026-06-18 17:03:46,828 [WARNING]  * Debugger is active!
+2026-06-18 17:03:46,830 [INFO]  * Debugger PIN: 284-867-786
+2026-06-18 17:03:46,907 [INFO] 127.0.0.1 - - [18/Jun/2026 17:03:46] "GET / HTTP/1.1" 200 -
+2026-06-18 17:03:53,858 [INFO] [DETECTED] Content Coordination Cluster 0: 20 posts, toxic 100%, severe 20, cohesion 100%, target STUDENTS
+2026-06-18 17:03:55,701 [INFO] [OK] text-classification model 'sadjava/multilingual-hate-speech-xlm-roberta' loaded from local cache.
+2026-06-18 17:03:55,702 [INFO] [OK] Toxicity model loaded.
+2026-06-18 17:03:55,864 [INFO] [SKIP] Content coordination cluster: target group unknown and no severe-post override.
+2026-06-18 17:03:55,869 [INFO] [CLUSTER] 2 cluster(s), 0 noise points.
+2026-06-18 17:03:55,869 [INFO] [SEMANTIC 0] 20 posts in semantic cluster.
+2026-06-18 17:03:55,870 [INFO] [SKIP] Semantic cluster 0/0: already reported as content coordination.
+2026-06-18 17:03:55,870 [INFO] [SEMANTIC 1] 15 posts in semantic cluster.
+2026-06-18 17:03:55,870 [INFO] [SKIP] Semantic cluster 1/0: target group unknown and no severe-post override.
+2026-06-18 17:03:55,871 [INFO] 127.0.0.1 - - [18/Jun/2026 17:03:55] "POST /api/analyze HTTP/1.1" 200 -
+2026-06-18 17:12:33,718 [INFO] 127.0.0.1 - - [18/Jun/2026 17:12:33] "GET / HTTP/1.1" 200 -
+2026-06-18 17:12:37,415 [INFO] [DETECTED] Content Coordination Cluster 0: 20 posts, toxic 100%, severe 20, cohesion 100%, target STUDENTS
+2026-06-18 17:12:37,416 [INFO] [SKIP] Content coordination cluster: target group unknown and no severe-post override.
+2026-06-18 17:12:37,419 [INFO] [CLUSTER] 2 cluster(s), 0 noise points.
+2026-06-18 17:12:37,419 [INFO] [SEMANTIC 0] 20 posts in semantic cluster.
+2026-06-18 17:12:37,420 [INFO] [SKIP] Semantic cluster 0/0: already reported as content coordination.
+2026-06-18 17:12:37,420 [INFO] [SEMANTIC 1] 15 posts in semantic cluster.
+2026-06-18 17:12:37,420 [INFO] [SKIP] Semantic cluster 1/0: target group unknown and no severe-post override.
+2026-06-18 17:12:37,421 [INFO] 127.0.0.1 - - [18/Jun/2026 17:12:37] "POST /api/analyze HTTP/1.1" 200 -
+2026-06-18 17:12:54,773 [INFO] [DETECTED] Content Coordination Cluster 0: 20 posts, toxic 100%, severe 20, cohesion 100%, target STUDENTS
+2026-06-18 17:12:54,774 [INFO] [SKIP] Content coordination cluster: target group unknown and no severe-post override.
+2026-06-18 17:12:54,777 [INFO] [CLUSTER] 2 cluster(s), 0 noise points.
+2026-06-18 17:12:54,777 [INFO] [SEMANTIC 0] 20 posts in semantic cluster.
+2026-06-18 17:12:54,777 [INFO] [SKIP] Semantic cluster 0/0: already reported as content coordination.
+2026-06-18 17:12:54,778 [INFO] [SEMANTIC 1] 15 posts in semantic cluster.
+2026-06-18 17:12:54,778 [INFO] [SKIP] Semantic cluster 1/0: target group unknown and no severe-post override.
+2026-06-18 17:12:54,779 [INFO] 127.0.0.1 - - [18/Jun/2026 17:12:54] "POST /api/analyze HTTP/1.1" 200 -
+2026-06-18 17:13:20,263 [INFO] [CLUSTER] 2 cluster(s), 4 noise points.
+2026-06-18 17:13:20,263 [INFO] [SEMANTIC 0] 5 posts in semantic cluster.
+2026-06-18 17:13:20,264 [INFO] [SKIP] Semantic cluster 0: no tight time burst.
+2026-06-18 17:13:20,264 [INFO] [SEMANTIC 1] 11 posts in semantic cluster.
+2026-06-18 17:13:20,474 [INFO] [DETECTED] Cluster 0: 6 posts, 36.0s, toxic 100%, severe 6, cohesion 89%, target STUDENTS
+2026-06-18 17:13:20,475 [INFO] 127.0.0.1 - - [18/Jun/2026 17:13:20] "POST /api/analyze HTTP/1.1" 200 -
+2026-06-18 17:13:42,839 [INFO] [CLUSTER] 2 cluster(s), 4 noise points.
+2026-06-18 17:13:42,839 [INFO] [SEMANTIC 0] 5 posts in semantic cluster.
+2026-06-18 17:13:42,839 [INFO] [SKIP] Semantic cluster 0: no tight time burst.
+2026-06-18 17:13:42,840 [INFO] [SEMANTIC 1] 11 posts in semantic cluster.
+2026-06-18 17:13:42,840 [INFO] [DETECTED] Cluster 0: 6 posts, 36.0s, toxic 100%, severe 6, cohesion 89%, target STUDENTS
+2026-06-18 17:13:42,841 [INFO] 127.0.0.1 - - [18/Jun/2026 17:13:42] "POST /api/analyze HTTP/1.1" 200 -
+2026-06-18 17:13:59,025 [INFO] 127.0.0.1 - - [18/Jun/2026 17:13:59] "GET / HTTP/1.1" 200 -
+2026-06-18 17:15:45,247 [INFO] [CLUSTER] 2 cluster(s), 4 noise points.
+2026-06-18 17:15:45,247 [INFO] [SEMANTIC 0] 5 posts in semantic cluster.
+2026-06-18 17:15:45,248 [INFO] [SKIP] Semantic cluster 0: no tight time burst.
+2026-06-18 17:15:45,248 [INFO] [SEMANTIC 1] 11 posts in semantic cluster.
+2026-06-18 17:15:45,248 [INFO] [DETECTED] Cluster 0: 6 posts, 36.0s, toxic 100%, severe 6, cohesion 89%, target STUDENTS
+2026-06-18 17:15:45,249 [INFO] 127.0.0.1 - - [18/Jun/2026 17:15:45] "POST /api/analyze HTTP/1.1" 200 -

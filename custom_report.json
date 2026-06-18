@@ -1,0 +1,20 @@
+{
+  "source_file": "sample_coordination_20_posts.csv",
+  "total_posts": 20,
+  "clusters_detected": 1,
+  "clusters": [
+    {
+      "id": 0,
+      "size": 20,
+      "target_group": "STUDENTS",
+      "toxic_ratio": 1.0,
+      "severe_count": 20,
+      "time_span_sec": 38.0,
+      "sample_text": "[REDACTED] [REDACTED] stoka i izdajnici treba ih isterati sa fakulteta",
+      "explanation": "Cluster 0: 20 content_copy_paste posts within 38.0s, toxicity 100%, semantic cohesion 100%, severe posts 20. Targeted group: STUDENTS. Indicator of coordinated inauthentic behaviour.",
+      "coordination_type": "content_copy_paste",
+      "semantic_cohesion": 1.0
+    }
+  ],
+  "methodology": "PROJECT VILAG – coordination by meaning and time, zero author data stored."
+}
